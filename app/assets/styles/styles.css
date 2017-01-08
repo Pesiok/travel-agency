@@ -9,5 +9,7 @@
 @import "modules/__headline";
 @import "modules/__row";
 @import "modules/__generic-content-container";
+@import "modules/__section-title";
+@import "modules/__feature-item"
 
 
