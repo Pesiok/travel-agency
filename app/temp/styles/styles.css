@@ -661,7 +661,7 @@ a {
   background-color: #e0e6ef;
 }
 
-@media (min-width:800px) {
+@media (min-width:1010px) {
 
   .page-section--testimonials {
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
@@ -962,7 +962,7 @@ a {
     margin-bottom: 6.125rem;
 }
 
-@media (min-width:800px) {
+@media (min-width:1010px) {
 
   .testimonial {
     padding: 0 1.8125rem 1px 1.8125rem;
