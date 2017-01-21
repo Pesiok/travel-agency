@@ -32,14 +32,14 @@
         transition: transform .3s ease-out;
         transform-origin: 50% 0%;
         background-color: $mainBlue;
-        padding: 1.5625rem 2.25rem;
+        padding: 1.56rem 2.25rem;
         
         @mixin atMedium {
             left: auto;
             transform: translateX(0);
             
             .site-header--dark & {
-                transform: scale(.565);
+                transform: scale(.56);
             }
         }
     }
