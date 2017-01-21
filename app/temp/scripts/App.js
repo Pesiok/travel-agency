@@ -11212,6 +11212,7 @@
 	        this.pageSections = (0, _jquery2.default)(".page-section");
 	        this.headerLinks = (0, _jquery2.default)(".primary-nav a");
 	        this.createPageSectionWaypoints();
+	        this.resetPageSectionWaypoints();
 	        this.addSmoothScrolling();
 	        this.refreshWaypoints();
 	    }
@@ -11272,6 +11273,20 @@
 	                    },
 	                    offset: "-40%"
 	                });
+	            });
+	        }
+	    }, {
+	        key: 'resetPageSectionWaypoints',
+	        value: function resetPageSectionWaypoints() {
+	            var that = this;
+	            new Waypoint({
+	                element: this.headerTriggerElement[0],
+	                handler: function handler(direction) {
+	                    if (direction == "up") {
+	                        that.headerLinks.removeClass("is-current-link");
+	                    }
+	                },
+	                offset: "-30%"
 	            });
 	        }
 	    }]);
